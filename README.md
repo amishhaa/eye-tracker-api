@@ -14,14 +14,22 @@ The project consists of two parts, this repository contains the backend of the a
 
 ### 1. Create virtual environment
 
-Before installing all dependencies and starting your Flask Server, it is better to create a python virtual environment. You can use the [venv package](https://docs.python.org/3/library/venv.html)
+Before installing all dependencies and starting your Flask Server, it is better to create a python virtual environment. You can use the [venv package](https://docs.python.org/3/library/venv.html), these commands are examples for creating and activating your virtual enviornment.
+
+**Linux and Mac OS**
+
+```
+python3 -m venv /path/to/new/virtual/environment
+``` 
+```
+source name-of-event/bin/activate
+```
+
+**Windows**
 
 ```
 python -m venv /path/to/new/virtual/environment
 ```
-
-Then activate your env. On windows for example you can activate with the script:
-
 ```
 name-of-event/Scripts/activate
 ```
